@@ -20,7 +20,7 @@ npm install simple-form-builder
 ## 🎯 Quick Start
 
 ```typescript
-import { Form } from 'declarative-form-lib';
+import { Form } from 'simple-form-builder';
 
 // Create a text input
 const nameInput = Form.input('name', {
@@ -176,7 +176,7 @@ Form.label('Email Address:', 'email', {
 
 ```typescript
 import React, { useState } from 'react';
-import { Form } from 'declarative-form-lib';
+import { Form } from 'simple-form-builder';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -321,7 +321,7 @@ The library will be built to the `dist/` directory and published as a standalone
 This library is written in TypeScript and provides full type definitions. All form element options are properly typed:
 
 ```typescript
-import { Form, FormFieldOptions, SelectOption } from 'declarative-form-lib';
+import { Form, FormFieldOptions, SelectOption } from 'simple-form-builder';
 
 const options: FormFieldOptions = {
   type: 'email',
@@ -350,7 +350,7 @@ MIT License - see LICENSE file for details.
 
 ## 🐛 Issues & Contributing
 
-Found a bug or want to contribute? Please visit our [GitHub repository](https://github.com/chetansoni1986/declarative-form-lib).
+Found a bug or want to contribute? Please visit our [GitHub repository](https://github.com/chetansoni1986/simple-form-builder).
 
 ---
 
