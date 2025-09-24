@@ -1,6 +1,6 @@
-# Simple Form Builder
+# Form Element Builder
 
-A simple form builder library for React and Next.js applications. This library provides an intuitive API for creating form elements with a clean, object-oriented syntax.
+A simple form element builder library for React and Next.js applications. This library provides an intuitive API for creating form elements with a clean, object-oriented syntax.
 
 ## 🚀 Features
 
@@ -14,13 +14,13 @@ A simple form builder library for React and Next.js applications. This library p
 ## 📦 Installation
 
 ```bash
-npm install simple-form-builder
+npm install form-element-builder
 ```
 
 ## 🎯 Quick Start
 
 ```typescript
-import { Form } from 'simple-form-builder';
+import { Form } from 'form-element-builder';
 
 // Create a text input
 const nameInput = Form.input('name', {
@@ -176,7 +176,7 @@ Form.label('Email Address:', 'email', {
 
 ```typescript
 import React, { useState } from 'react';
-import { Form } from 'simple-form-builder';
+import { Form } from 'form-element-builder';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -321,7 +321,7 @@ The library will be built to the `dist/` directory and published as a standalone
 This library is written in TypeScript and provides full type definitions. All form element options are properly typed:
 
 ```typescript
-import { Form, FormFieldOptions, SelectOption } from 'simple-form-builder';
+import { Form, FormFieldOptions, SelectOption } from 'form-element-builder';
 
 const options: FormFieldOptions = {
   type: 'email',
@@ -350,7 +350,7 @@ MIT License - see LICENSE file for details.
 
 ## 🐛 Issues & Contributing
 
-Found a bug or want to contribute? Please visit our [GitHub repository](https://github.com/chetansoni1986/simple-form-builder).
+Found a bug or want to contribute? Please visit our [GitHub repository](https://github.com/chetansoni1986/form-element-builder).
 
 ---
 

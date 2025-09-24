@@ -1,7 +1,7 @@
 {
-  "name": "simple-form-builder",
+  "name": "form-element-builder",
   "version": "0.1.0",
-  "description": "A simple form builder library for React and Next.js applications",
+  "description": "A simple form element builder library for React and Next.js applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chetansoni1986/simple-form-builder.git"
+    "url": "https://github.com/chetansoni1986/form-element-builder.git"
   },
-  "homepage": "https://github.com/chetansoni1986/simple-form-builder#readme",
+  "homepage": "https://github.com/chetansoni1986/form-element-builder#readme",
   "bugs": {
-    "url": "https://github.com/chetansoni1986/simple-form-builder/issues"
+    "url": "https://github.com/chetansoni1986/form-element-builder/issues"
   }
 }
