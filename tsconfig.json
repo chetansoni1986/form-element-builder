@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "es6"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "es2015",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src/lib",
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src/lib/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/app"
+  ]
+}
