@@ -266,19 +266,16 @@ function ContactForm() {
 ## 📁 Project Structure
 
 ```
-form-lib/
+form-element-builder/
 ├── src/
-│   ├── lib/
-│   │   ├── Form.tsx        # Main Form class
-│   │   └── index.ts        # Library exports
-│   └── app/                # Demo application
-│       ├── layout.tsx
-│       └── page.tsx
+│   └── lib/
+│       ├── Form.tsx        # Main Form class
+│       └── index.ts        # Library exports
 ├── dist/                   # Built library files (generated)
-├── package.json
-├── tsconfig.json          # Next.js TypeScript config
-├── tsconfig.lib.json      # Library build config
-└── README.md
+├── package.json            # Package configuration
+├── tsconfig.json          # TypeScript configuration
+├── README.md              # Documentation
+└── LICENSE                # MIT License
 ```
 
 ## 🛠️ Development
@@ -307,14 +304,6 @@ npm run build
 ```bash
 npm run lint
 ```
-
-## 📦 Publishing
-
-1. Update version in `package.json`
-2. Build the library: `npm run build:lib`
-3. Publish to npm: `npm publish`
-
-The library will be built to the `dist/` directory and published as a standalone package.
 
 ## 🤝 TypeScript Support
 
