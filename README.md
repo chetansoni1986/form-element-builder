@@ -1,6 +1,6 @@
-# Form Library
+# Simple Form Builder
 
-A simple, declarative form library for React and Next.js applications. This library provides an intuitive API for creating form elements with a clean, object-oriented syntax.
+A simple form builder library for React and Next.js applications. This library provides an intuitive API for creating form elements with a clean, object-oriented syntax.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ A simple, declarative form library for React and Next.js applications. This libr
 ## 📦 Installation
 
 ```bash
-npm install declarative-form-lib
+npm install simple-form-builder
 ```
 
 ## 🎯 Quick Start
